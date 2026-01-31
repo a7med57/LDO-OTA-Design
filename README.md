@@ -63,4 +63,4 @@ The OTA uses a 5-transistor topology sized using the $g_m/I_D$ methodology.
 
 
 ## Documentation
-For full design equations and transistor sizing charts, please refer to the [Project Report](docs/Final_Report_Group6.pdf).
+For full design equations and transistor sizing charts, please refer to the [Project Report](LDO-OTA-Design/docs/LDO-5T-OTA.pdf).
