@@ -27,17 +27,17 @@ The LDO is designed to provide a programmable output voltage using a feedback ne
 
 #### Programmability (Resistance Sweep)
 By sweeping resistor $R_1$ from $10k\Omega$ to $70k\Omega$, the output voltage scales linearly from 0.75V to 1.05V.
-![Resistance Sweep](LDO-OTA-Design\simulation\Resistance%20Sweep.png)
+![Resistance Sweep](LDO-OTA-Design/simulation/Resistance%20Sweep.png)
 
 #### Stability Analysis (Line Regulation & PVT)
 The design maintains stability across voltage sweeps and temperature variations ($-40^{\circ}\text{C}$ to $125^{\circ}\text{C}$).
 | Line Regulation | PVT Analysis |
 | :---: | :---: |
-| ![Line Regulation](LDO-OTA-Design\simulation\Line%20Regulation.png) | ![PVT Analysis](LDO-OTA-Design\simulation\PVT.png) |
+| ![Line Regulation](LDO-OTA-Design/simulation/Line%20Regulation.png) | ![PVT Analysis](LDO-OTA-Design/simulation/PVT.png) |
 
 #### Power Supply Rejection Ratio (PSRR)
 Achieved **58 dB** at DC, maintaining >29 dB up to 1 GHz.
-![PSRR](LDO-OTA-Design\simulation\PSRR.png)
+![PSRR](LDO-OTA-Design/simulation/PSRR.png)
 
 ---
 
@@ -54,10 +54,10 @@ The OTA uses a 5-transistor topology sized using the $g_m/I_D$ methodology.
 ### Simulation Results
 | Open Loop Gain | Gain Bandwidth (GBW) |
 | :---: | :---: |
-| ![Gain Plot](LDO-OTA-Design\simulation\Gain.png) | ![GBW Plot](LDO-OTA-Design\simulation\GBW.png) |
+| ![Gain Plot](LDO-OTA-Design/simulation/Gain.png) | ![GBW Plot](LDO-OTA-Design/simulation/GBW.png) |
 
 **Common Mode Rejection Ratio (CMRR)**
-![CMRR Plot](LDO-OTA-Design\simulation\CMRR.png)
+![CMRR Plot](LDO-OTA-Design/simulation/CMRR.png)
 
 ---
 
