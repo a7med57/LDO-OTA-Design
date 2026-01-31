@@ -7,7 +7,7 @@
 ## Project Overview
 This project involves the design and simulation of a programmable Low-Dropout Regulator (LDO) and a 5-Transistor Operational Transconductance Amplifier (OTA). The goal was to generate a constant voltage across PVT variations with high Power Supply Rejection (PSR).
 
-![LDO Schematic](simulation\schematic.png)
+![LDO Schematic](LDO-OTA-Design/simulation/schematic.png)
 *Figure 1: Complete LDO Schematic designed in Cadence.*
 
 ---
